@@ -22,45 +22,45 @@
     <Borland.Personality>Delphi.Personality</Borland.Personality>
     <Borland.ProjectType>Package</Borland.ProjectType>
     <BorlandProject>
-<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><Package_Options><Package_Options Name="PackageDescription">DCPcrypt cryptographic component library v2 BETA 3</Package_Options><Package_Options Name="ImplicitBuild">True</Package_Options><Package_Options Name="DesigntimeOnly">False</Package_Options><Package_Options Name="RuntimeOnly">False</Package_Options></Package_Options><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1036</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">DCPdelphi2007.dpk</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><Package_Options><Package_Options Name="PackageDescription">DCPcrypt cryptographic component library v2.1</Package_Options><Package_Options Name="ImplicitBuild">True</Package_Options><Package_Options Name="DesigntimeOnly">False</Package_Options><Package_Options Name="RuntimeOnly">False</Package_Options></Package_Options><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1036</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">DCPdelphi2007.dpk</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
   </ProjectExtensions>
   <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
   <ItemGroup>
-    <DelphiCompile Include="DCPdelphi2007.dpk">
+    <DelphiCompile Include="'..\Source\DCPdelphi2007.dpk">
       <MainSource>MainSource</MainSource>
     </DelphiCompile>
     <DCCReference Include="$(SystemRoot)\system32\rtl.dcp" />
-    <DCCReference Include="Ciphers\DCPblowfish.pas" />
-    <DCCReference Include="Ciphers\DCPcast128.pas" />
-    <DCCReference Include="Ciphers\DCPcast256.pas" />
-    <DCCReference Include="Ciphers\DCPdes.pas" />
-    <DCCReference Include="Ciphers\DCPgost.pas" />
-    <DCCReference Include="Ciphers\DCPice.pas" />
-    <DCCReference Include="Ciphers\DCPidea.pas" />
-    <DCCReference Include="Ciphers\DCPmars.pas" />
-    <DCCReference Include="Ciphers\DCPmisty1.pas" />
-    <DCCReference Include="Ciphers\DCPrc2.pas" />
-    <DCCReference Include="Ciphers\DCPrc4.pas" />
-    <DCCReference Include="Ciphers\DCPrc5.pas" />
-    <DCCReference Include="Ciphers\DCPrc6.pas" />
-    <DCCReference Include="Ciphers\DCPrijndael.pas" />
-    <DCCReference Include="Ciphers\DCPserpent.pas" />
-    <DCCReference Include="Ciphers\DCPtea.pas" />
-    <DCCReference Include="Ciphers\DCPtwofish.pas" />
-    <DCCReference Include="DCPbase64.pas" />
-    <DCCReference Include="DCPblockciphers.pas" />
-    <DCCReference Include="DCPconst.pas" />
-    <DCCReference Include="DCPcrypt2.pas" />
-    <DCCReference Include="DCPreg.pas" />
-    <DCCReference Include="Hashes\DCPhaval.pas" />
-    <DCCReference Include="Hashes\DCPmd4.pas" />
-    <DCCReference Include="Hashes\DCPmd5.pas" />
-    <DCCReference Include="Hashes\DCPripemd128.pas" />
-    <DCCReference Include="Hashes\DCPripemd160.pas" />
-    <DCCReference Include="Hashes\DCPsha1.pas" />
-    <DCCReference Include="Hashes\DCPsha256.pas" />
-    <DCCReference Include="Hashes\DCPsha512.pas" />
-    <DCCReference Include="Hashes\DCPtiger.pas" />
+    <DCCReference Include="'..\Source\Ciphers\DCPblowfish.pas" />
+    <DCCReference Include="'..\Source\Ciphers\DCPcast128.pas" />
+    <DCCReference Include="'..\Source\Ciphers\DCPcast256.pas" />
+    <DCCReference Include="'..\Source\Ciphers\DCPdes.pas" />
+    <DCCReference Include="'..\Source\Ciphers\DCPgost.pas" />
+    <DCCReference Include="'..\Source\Ciphers\DCPice.pas" />
+    <DCCReference Include="'..\Source\Ciphers\DCPidea.pas" />
+    <DCCReference Include="'..\Source\Ciphers\DCPmars.pas" />
+    <DCCReference Include="'..\Source\Ciphers\DCPmisty1.pas" />
+    <DCCReference Include="'..\Source\Ciphers\DCPrc2.pas" />
+    <DCCReference Include="'..\Source\Ciphers\DCPrc4.pas" />
+    <DCCReference Include="'..\Source\Ciphers\DCPrc5.pas" />
+    <DCCReference Include="'..\Source\Ciphers\DCPrc6.pas" />
+    <DCCReference Include="'..\Source\Ciphers\DCPrijndael.pas" />
+    <DCCReference Include="'..\Source\Ciphers\DCPserpent.pas" />
+    <DCCReference Include="'..\Source\Ciphers\DCPtea.pas" />
+    <DCCReference Include="'..\Source\Ciphers\DCPtwofish.pas" />
+    <DCCReference Include="'..\Source\DCPbase64.pas" />
+    <DCCReference Include="'..\Source\DCPblockciphers.pas" />
+    <DCCReference Include="'..\Source\DCPconst.pas" />
+    <DCCReference Include="'..\Source\DCPcrypt2.pas" />
+    <DCCReference Include="'..\Source\DCPreg.pas" />
+    <DCCReference Include="'..\Source\Hashes\DCPhaval.pas" />
+    <DCCReference Include="'..\Source\Hashes\DCPmd4.pas" />
+    <DCCReference Include="'..\Source\Hashes\DCPmd5.pas" />
+    <DCCReference Include="'..\Source\Hashes\DCPripemd128.pas" />
+    <DCCReference Include="'..\Source\Hashes\DCPripemd160.pas" />
+    <DCCReference Include="'..\Source\Hashes\DCPsha1.pas" />
+    <DCCReference Include="'..\Source\Hashes\DCPsha256.pas" />
+    <DCCReference Include="'..\Source\Hashes\DCPsha512.pas" />
+    <DCCReference Include="'..\Source\Hashes\DCPtiger.pas" />
   </ItemGroup>
 </Project>
 <!-- EurekaLog First Line

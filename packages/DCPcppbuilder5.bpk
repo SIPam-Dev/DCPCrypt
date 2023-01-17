@@ -41,7 +41,7 @@
     <PFLAGS value="-$YD -$W -$O- -v -JPHNE -M"/>
     <RFLAGS value=""/>
     <AFLAGS value="/mx /w2 /zd"/>
-    <LFLAGS value="-D&quot;DCPcrypt cryptographic component library v2 BETA 3&quot; -aa -Tpp -x -Gn -Gl 
+    <LFLAGS value="-D&quot;DCPcrypt cryptographic component library v2.1&quot; -aa -Tpp -x -Gn -Gl 
       -Gi -v"/>
   </OPTIONS>
   <LINKER>
@@ -67,7 +67,7 @@ CodePage=1252
 
 [Version Info Keys]
 CompanyName=
-FileDescription=DCPcrypt cryptographic component library v2 BETA 3
+FileDescription=DCPcrypt cryptographic component library v2.1
 FileVersion=2.0.0.0
 InternalName=DCPcrypt
 LegalCopyright=Copyright © 1999-2002 David Barton
